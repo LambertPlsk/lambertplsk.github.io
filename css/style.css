@@ -1,0 +1,17 @@
+body { 
+    background-color: bisque;
+    background-image: url(background.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    font-size: large;
+    font-family: Arial;
+    margin: 40px;
+}
+p {
+	text-align: left;
+}
+<style>
+    table, table * {border: 1px solid black}
+</style>
