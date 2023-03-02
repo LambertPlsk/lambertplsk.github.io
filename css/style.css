@@ -1,6 +1,6 @@
 body { 
-    background-color: bisque;
-    background-image: url(background.jpg); 
+    background-color: rgba(165, 187, 66, 0.204);
+    background-image: url(gifbg.gif); 
     background-attachment: fixed;
     background-size: cover;
 }
