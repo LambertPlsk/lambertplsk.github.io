@@ -1,0 +1,70 @@
+body{
+    background-color: #000000;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'VT323', monospace;
+    font-weight:700;
+}
+#container{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#plansza{
+    width:900px;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+    font-size:48;
+    min-height:60px;
+}
+#hangman{
+    float:left;
+    width:450px;
+    text-align:center;
+    min-height:280px;
+}
+#alphabet{
+     float:left;
+     width:450px;
+     text-align:center;
+     min-height:280px; /* odpowiada to za to, że kiedy zniknie element to sie wszystkonie 
+     poprzesuwa tylko będzie zmuszone zostać w miejscu o tej wysokości 280px */
+}
+.litera{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.litera:hover{/*tutaj mamy kod do tego co się stanie jak najedziemy na literę */
+    background-color:gray;
+    color:white;
+    border: 3px solid white;
+}
+.reset:hover{
+    color:white;
+    cursor: pointer;
+}
+#back{
+    font-size: 35px;
+    color:white;
+    border: 3px solid gray;
+    padding: 5px;
+    width: 90px;
+    height: 35px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.back:hover{
+    color:white;
+    cursor: pointer;
+    align-content:center;
+    background-color:gray;
+    border: 3px solid white;
+}

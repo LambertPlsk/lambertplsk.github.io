@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+	
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<title>JS basics</title>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="sprawdzanie.js"></script>
+		<script type="module" src="./passwords.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	</head>
+<body onload="start()">
+<center>
+<div id="clock"></div>
+<hr style="height: 1px; background: rgb(112, 112, 112); border: 1px;">
+<div id="check">
+	<label>Sprawdzanie liczby czy dodatnia czy nie</label><br>
+<input type="text" id="digit"/>
+<input type="submit" value="Sprawdź" onclick="check()"/>
+<div id="wynik"></div>
+</div>
+<br>
+<div id="compare">
+	<label>Wypisuje liczby w ciągu</label><br>
+<input type="text" id="pole1"/>
+<input type="text" id="pole2"/>
+<input type="submit" value="Sprawdź to ziomal" onclick="sprawdzanie()"/>
+<div id="sprawdz" style="white-space: pre-wrap;"></div>
+</div>
+<hr style="height: 2px; background: black; border: 1px;">
+
+<span onclick="ustawslajd(1)" style="cursor:pointer;">[1]</span>
+<span onclick="ustawslajd(2)" style="cursor:pointer;">[2]</span>
+<span onclick="ustawslajd(3)" style="cursor:pointer;">[3]</span>
+<span onclick="ustawslajd(4)" style="cursor:pointer;">[4]</span>
+<span onclick="ustawslajd(5)" style="cursor:pointer;">[5]</span>
+<div id="slider"></div>
+
+
+
+</center>
+</body>
+<footer>
+	<br><br><br>
+	<hr style="height: 5px; background: black; border: 1px;">
+	<center><a href="./hangman.html">Gra w wisielca</a></center>
+</footer>
+</html>
